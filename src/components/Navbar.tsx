@@ -99,7 +99,7 @@ const Navbar = () => {
             </Link>
 
             {/* Menu Section */}
-            <div className="p-2">
+            <div className="p-2 ">
                 
                 <button 
                 onClick={toggleMenu}
@@ -113,7 +113,7 @@ const Navbar = () => {
                     lg:static lg:flex lg:flex-row lg:items-center lg:shadow-none lg:bg-transparent lg:backdrop-blur-none`}>
                     {Menu.map(({title, submeun, href, subMenuItems},i)=> {
                         return(
-                            <div className="relative">
+                            <div className="relative z-50">
                                 <Link className="block group rounded-xl 
                                     px-1 py py-3 sm:hover:bg-[#e5f874] transition duration-300
                                     lg:px-1 lg:py-2 lg:hover:bg-transparent" 
@@ -121,7 +121,7 @@ const Navbar = () => {
                                     to={href as To} 
                                     key={i}
                                     onClick={() => submeun && handleSubMenuToggle(i)}>
-                                    <span className="px-3 flex group items-center gap-1">
+                                    <span className="px-3 flex group items-center gap-1 z-50">
                                         {title}
                                         <span className='absolute bottom-0 left-0 
                                         w-0 h-0.5 group-hover:w-full 
@@ -135,8 +135,8 @@ const Navbar = () => {
                                 </Link>
 
                                 {submeun && activeSubMenu === i && (
-                                    <div className="relative">
-                                        <ul className="lg:mt-5 lg:absolute rounded-md shadow-md  lg:min-w-[200px] bg-[#50db2649] top-0 right-0 left-0 space-y-2 transition duration-300">
+                                    <div className="relative z-100 ">
+                                        <ul className="lg:mt-5 lg:absolute  rounded-md shadow-md  lg:min-w-[200px] bg-[#50db2649] top-0 right-0 left-0 space-y-2 transition duration-300">
                                         {subMenuItems?.map(({name, href, icon})=>(
                                             <a href={href}>
                                                 <li
