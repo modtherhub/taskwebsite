@@ -1,0 +1,53 @@
+{
+    "menu": "Menu",
+    "home": "Home",
+    "blog": "Blog",
+    
+    "plan": "Plans",
+    "log in": "Log in",
+    "create account": "Create account",
+
+    "our blogs": "Welcome to the AMBAR Blog!",
+    "news": "Discover fresh ideas that change your perspective",
+    "blog dis": "Read stories of people who transformed their lives, and explore the latest trends in self-development. Break the routine, and start your journey toward authentic renewal and personal excellence.",
+    "card1": {
+        "title":"Meet AutoManage, the best AI management tools",
+        "dis":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    "card2": {
+        "title":"Meet AutoManage, the best AI management tools",
+        "dis":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    "card3": {
+        "title":"Meet AutoManage, the best AI management tools",
+        "dis":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+
+    "project": {
+    "title":"Project",
+    "name1": "Future Leaders Program",
+    "name2": "Days of Inspiration Festival",
+    "name3": "Balanced Society Initiative"},
+
+    "service": {
+    "title":"Service",
+    "name1": "Personal & Career Consultations",
+    "name2": "Workshops & Training Programs",
+    "name3": "Community & Youth Event Organization"
+    },
+
+    "hero": {
+        "title": "We create space for those who believe in transformation and growth",
+        "subtitle": "Here, your journey toward a brighter self begins. Connect, evolve, and learn from inspiring experts and real-life experiences.",
+        "button": "Join to the waitlist"
+    },
+
+    "notFound": {
+        "title": "404 error",
+        "subtitle": "Page not found",
+        "message": "Sorry, the page you are looking for doesn't exist. Here are some helpful links:",
+        "back": "Go back",
+        "home": "Take me home"
+    }
+     
+}
