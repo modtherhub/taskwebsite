@@ -1,4 +1,4 @@
-import x from '/home/modther/Project/prjecthome/src/assets/illustration.svg'
+import x from '../assets/illustration.svg'
 import { Link } from 'react-router-dom'
 import LanguageSwitcher from '../components/LanguageSwitcher'
 import { useTranslation } from 'react-i18next';
