@@ -48,6 +48,12 @@
         "message": "Sorry, the page you are looking for doesn't exist. Here are some helpful links:",
         "back": "Go back",
         "home": "Take me home"
+    },
+
+    "dataModel":{
+        "title": "Data Model",
+        "name1": "Doctor",
+        "name2": "Patient"
     }
      
 }

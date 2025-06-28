@@ -8,6 +8,8 @@ import { Container } from 'lucide-react';
 import { Grip } from 'lucide-react';
 import { Cannabis } from 'lucide-react';
 import { Award } from 'lucide-react';
+import { BriefcaseMedical } from 'lucide-react';
+import { User } from 'lucide-react';
 
 
 
@@ -84,6 +86,21 @@ const Navbar = () => {
         icon: <Award/>,
       },]
      },
+
+     {title : t('dataModel.title'), href : "#", submeun : true ,
+        subMenuItems: [
+          {
+            name: t('dataModel.name1'),
+            href: "https://www.typescriptlang.org/docs/",
+            icon: <BriefcaseMedical/>,
+        },
+        {
+            name: t('dataModel.name2'),
+            href: "https://www.typescriptlang.org/docs/",
+            icon: <User/>,
+        },
+        ]
+       }
    
 ]
     
