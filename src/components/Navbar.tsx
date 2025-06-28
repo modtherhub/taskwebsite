@@ -10,6 +10,7 @@ import { Cannabis } from 'lucide-react';
 import { Award } from 'lucide-react';
 import { BriefcaseMedical } from 'lucide-react';
 import { User } from 'lucide-react';
+import Logo from '../assets/logo.png'
 
 
 
@@ -109,7 +110,7 @@ const Navbar = () => {
         <div className="bg-white border-b border-neutral-400 h-16 rounded-3xl flex items-center justify-between px-9 shadow-xl">
             {/* Logo section */}
             <Link to={"/" as To} className="flex items-center space-x-2">
-                <img className="h-8" src="/src/assets/logo.png" alt="" />
+                <img className="h-8" src={Logo} alt="" />
                 <h3 className="text-xl font-bold bg-gradient-to-r 
                 from-gray-400 to-gray-100 bg-clip-text
                 text-transparent'">AMBAR</h3>
