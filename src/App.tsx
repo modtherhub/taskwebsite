@@ -3,6 +3,7 @@ import HomePage from "./pages/HomePage"
 import Blog from "./pages/Blog"
 import Plans from "./pages/Plans"
 import NotFoundPage from "./pages/NotFoundPage"
+import DoctorPage from './pages/DoctorPage'
 import { useTranslation } from 'react-i18next';
 import { useEffect } from 'react'
 
@@ -22,6 +23,7 @@ function App() {
       <Route path = "/blog"  element = {<Blog/>} />
       <Route path = "/plans" element = {<Plans/>}/>
       <Route path = "*" element = {<NotFoundPage/>}/>
+      <Route path = "/doctorpag" element = {<DoctorPage/>}/>
     </Routes>
   )
 }
