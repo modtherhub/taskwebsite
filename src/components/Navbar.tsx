@@ -92,7 +92,7 @@ const Navbar = () => {
         subMenuItems: [
           {
             name: t('dataModel.name1'),
-            href: "https://www.typescriptlang.org/docs/",
+            href: "/doctorpag",
             icon: <BriefcaseMedical/>,
         },
         {

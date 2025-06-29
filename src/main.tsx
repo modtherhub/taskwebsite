@@ -6,7 +6,7 @@ import ReactDOM from 'react-dom/client'
 import '../src/utils/i18.ts'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <BrowserRouter basename="/modather">
+  <BrowserRouter>
     <StrictMode>
       <App />
     </StrictMode>,

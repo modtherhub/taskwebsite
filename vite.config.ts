@@ -4,7 +4,17 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/modather/',
-  plugins: [tailwindcss(),
-    react()],
+  plugins: [
+    tailwindcss(),
+    react()
+  ],
+  server: {
+    proxy: {
+      '/api': {
+        target: 'https://ec-sd.com',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api/, ''),
+      },
+    },
+  },
 })
