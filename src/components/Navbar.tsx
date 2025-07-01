@@ -127,7 +127,9 @@ const Navbar = () => {
 
                 <div className={`${isOpen ? "flex" : "hidden"}
                     flex-col gap-3 transition duration-300
-                    absolute top-full left-0 w-full backdrop-blur-md shadow-xl/30 px-6  rounded-md flex-center-between py-4
+                    absolute top-full left-0 w-full 
+                    bg-neutral-400/20 backdrop-blur-[2px]
+                    shadow-xl/30 px-6  rounded-md flex-center-between py-4
                     lg:static lg:flex lg:flex-row lg:items-center lg:shadow-none lg:bg-transparent lg:backdrop-blur-none`}>
                     {Menu.map(({title, submeun, href, subMenuItems},i)=> {
                         return(
