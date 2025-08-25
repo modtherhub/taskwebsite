@@ -20,7 +20,7 @@ function DoctorPage() {
   }, []); 
 
   if (loading) return <div className="h-screen flex items-center justify-center"><Atom color="#000000" size="small" text="loading ..." textColor="" /></div>; 
-  if (!doctor) return <p>No doctor data found</p>; 
+  if (!doctor) return <p>No doctor data found</p>
   
   return ( 
     <div className="flex-row p-6 lg:px-14 ">
